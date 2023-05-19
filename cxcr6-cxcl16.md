@@ -1,1 +1,6 @@
+## CXCR6–CXCL16 chemotactic axis regulates T cell migration, activation 
+
+In our previous analysis we showed that the pink cluster, enriched in early-stage tumours, upregulates CXCL16.  The soluble forms of this chemokine induce the migration of T cells through an interaction with CXCR6. Although we performed an enrichment of myeloid cells in the tumour microenvironment to obtain our scRNA-seq dataset, we also captured a group of lymphocytes, which we were able to identify as CD4+ T cells, CD8+ T cells, unconventional T cells (e.g., gamma-delta T cells)  and NK cells. Looking at the tSNEs separated by condition, we see that T  and NK cells are enriched in the early-stage of tumour development, as expected. We also show that in our dataset, CD8+ T cells, followed by CD4+ T cells, were the only types of immune cells that upregulated CXCR6, the receptor for CXCL16. We know that the interaction between CXCL16 and CXCR6 is unique as it is shown that this chemokine does not bind to any other known chemokine receptor. In addition, the function of CXCR6 is concentration-dependent. It has been shown that higher doses of CXCL16 induce migration of T cells, while lower doses can also inhibit cell migration, particularly in Tregs.
+
+
 
