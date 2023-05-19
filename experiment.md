@@ -7,9 +7,9 @@ Over 1.5 million women (25% of all women with cancer) are diagnosed with breast 
 We aim at characterising subtypes and activation states of breast tumour-infiltrating myeloid cells and define their molecular distinctiveness.
 Karine Serre’s team has established a C57BL/6 triple-negative BC mouse model of tumour regression strictly dependent on the presence of macrophages, based on the myeloid cell properties to respond to stimulatory agents. 
 In order to characterize the full spectrum of macrophage activation in vivo, we generated a scRNA-seq dataset consisting of 3 replicates of each of the following conditions:
-*Tumours that were left to grow for a maximum of 15 days (Not-treated/Early-tumours);
-*Tumours that were left to grow for up to 30 days (Big/Late-tumours); 
-*Tumours with experimentally-induced anti-tumour macrophages (MCT/Treated tumours)
+* Tumours that were left to grow for a maximum of 15 days (Not-treated/Early-tumours);
+* Tumours that were left to grow for up to 30 days (Big/Late-tumours); 
+* Tumours with experimentally-induced anti-tumour macrophages (MCT/Treated tumours)
 
 Karine’s team FACS sorted CD45+CD3–CD19–NK1.1– cells coupled with 10X Genomics microdroplet technology to prepare libraries for sequencing with an Illumina machine.
 Most data analyses were performed in R (software environment for statistical computing), using packages from Bioconductor (public repository of R tools for the analysis of high-throughput genomic data, https://www.bioconductor.org/). Alignment and mapping of the reads was performed with Cell Ranger (https://github.com/10XGenomics/cellranger), designed to process 10x Genomics Chromium scRNA-seq raw data. Pre-processing, e.g., quality control and normalization,relied on packages developed for scRNA-seq data analysis, e.g., scater, scran and Seurat. We also developed scStudio, a web-based tool for scRNA-seq data analysis by non-computational researchers.
