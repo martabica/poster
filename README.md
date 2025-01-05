@@ -1,0 +1,1 @@
+This repository contains text files with information and links corresponding to QR codes featured in my poster. Each QR code directs viewers to detailed content, references, or supplementary materials related to the topics covered in the poster.
